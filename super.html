@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title> event plus</title>
+    <link href='https://fonts.googleapis.com/css?family=Bungee Outline' rel='stylesheet' />
+    <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet' />
+    <link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet' />
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+
+    <link href="/fontawesome/css/fontawesome.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="super.css" />
+    <script type="text/javascript" src="super.js"></script>
+</head>
+
+<body>
+
+    <div id="title_container" class="all_title_container">
+        <div id="title_inner_container">
+            <h1 id="title" class="all_title">event plus</h1>
+        </div>
+    </div>
+    <div id="all_container">
+        <div id="all_inner_container" class="title">
+            <form id="form">
+                <input type="text" placeholder="enter name group" class="add" id="nameGroup">
+                <hr>
+                <input type="text" class="add" disabled id="addedUser" value="mlm">
+
+
+                <div class="user_group">
+
+                    <label class="added_user">
+                <input type="checkbox" name="1" id="user" >
+               <span>yaser</span> 
+            </label>
+                    <label class="added_user">
+                <input type="checkbox" name="2" id="user" >
+               <span>khalil</span> 
+            </label>
+                    <label class="added_user">
+                <input type="checkbox" name="3" id="user" >
+               <span>mlm</span> 
+            </label>
+
+                </div>
+
+                <button class="done_add" id="add_group" type="submit">ADD</button>
+
+
+            </form>
+            <div id="chat_logout_container"><button id="chat_logout">mlm • logout</button></div>
+        </div>
+    </div>
+</body>
+
+</html>
