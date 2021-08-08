@@ -1,3 +1,3 @@
 # chat-plus
-# real time chat 
+ real time chat 
 # js and firebase 
